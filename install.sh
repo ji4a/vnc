@@ -1,3 +1,4 @@
+yum -y install htop
 yum -y install tigervnc-server
 yum -y groupinstall "GNOME Desktop"
 firewall-cmd --add-port=5901/tcp --permanent
