@@ -4,6 +4,6 @@ yum -y groupinstall "GNOME Desktop"
 firewall-cmd --add-port=5901/tcp --permanent
 systemctl restart firewalld.service
 
-#AFTER INSTALL EXECUTE
-#vncserver
+vncserver
+
 #give passwd and go!
