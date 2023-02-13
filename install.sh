@@ -12,10 +12,11 @@ yum -y install tigervnc-server
 yum -y groupinstall "GNOME Desktop"
 firewall-cmd --add-port=5901/tcp --permanent
 systemctl restart firewalld.service
-vncserver
-# GIVE PASSWD AND GO!
 
 snap install btop
+
+vncserver
+# GIVE PASSWD AND GO!
 
 # INSTALL VESTACP IF YOU WANT
 # curl -O http://vestacp.com/pub/vst-install.sh 
