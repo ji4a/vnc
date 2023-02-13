@@ -2,7 +2,7 @@
 yum -y install snapd
 systemctl enable --now snapd.socket
 ln -s /var/lib/snapd/snap /snap
-snap install btop
+
 
 # INSTALL HTOP
 yum -y install htop
@@ -14,6 +14,8 @@ firewall-cmd --add-port=5901/tcp --permanent
 systemctl restart firewalld.service
 vncserver
 # GIVE PASSWD AND GO!
+
+snap install btop
 
 # INSTALL VESTACP IF YOU WANT
 # curl -O http://vestacp.com/pub/vst-install.sh 
