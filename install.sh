@@ -15,8 +15,6 @@ systemctl restart firewalld.service
 vncserver
 # GIVE PASSWD AND GO!
 
-
 # INSTALL VESTACP IF YOU WANT
-
 # curl -O http://vestacp.com/pub/vst-install.sh 
 # bash vst-install.sh
