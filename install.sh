@@ -1,3 +1,4 @@
+# FOR CENTOS 7
 # INSTALL BTOP VIA SNAPD
 yum -y install snapd
 systemctl enable --now snapd.socket
